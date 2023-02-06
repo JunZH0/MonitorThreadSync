@@ -1,7 +1,7 @@
 public class PadreRelevos {
     public static void main(String[] args) {
         Relevos relevos = new Relevos();
-        String[] nombres = {"H1", "H2", "H3", "H4"};
+        String[] nombres = {"H1", "H4", "H3", "H2"};
         Thread[] threads = new Thread[4];
         for (int i = 0; i < 4; i++) {
             int index = i;
